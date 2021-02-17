@@ -1,0 +1,82 @@
+/** {
+    border: solid red 2px;
+} */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    background-color: #8F8F8F;
+    color: azure;
+}
+
+h1, h3 {
+    font-family: 'Reggae One', cursive;
+}
+
+h3:hover {
+    background-color: #d0b311;
+ }
+
+img {
+    display: block;
+    width: 100%;
+    margin: none;
+}
+
+ul {
+    text-align: left;
+}
+
+p {
+    text-align: justify;
+}
+
+button {
+    background-color: #d0b311;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+.pboxes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #3D3D3D;
+    padding: 20px;
+    margin: auto;
+}
+
+button:hover {
+    background-color: #f7ea9d;
+  }
+
+.heading-bcg {
+    background-color: #d0b311;
+    padding: 10px 10px;
+}
+
+.pic-article-r {
+    float: right;
+    width: 50%;
+    margin: 5px 10px;
+}
+
+.pic-article-l {
+    float: left;
+    width: 50%;
+    margin: 5px 10px;
+}
+
+div>p::first-letter {
+    font-size:xx-large;
+    color: #d0b311;
+}
